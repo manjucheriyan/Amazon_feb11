@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+
+.header__logo{
+  width: 100px;
+  margin: 0 20px;
+  margin-top: 18px;
+  object-fit: contain;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header{
+  height: 65px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100
+}
+.header__logo{
+  width: 100px;
+  margin: 0 20px;
+  margin-top: 18px;
+  object-fit: contain;
+
+}
+.header__optionBasket{
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.header__basketCount{
+  margin: 0px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header__nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__option{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.header__optionLineOne{
+  font-size: 10px;
+}
+.header__optionLineTwo{
+  font-size: 13px;
+  font-weight: 800;
+}
+.header__link{
+  color: #ffffff;
+  text-decoration: none;
+}
+.header__search{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 30px;
+
+  width: 10px;
+   height: 35px;
+   overflow: hidden;
+   
+  
+   margin:auto;
+   border-radius:6px;
+  
+}
+.header__searchInput{
+  padding: 10px;
+  height: 25px;
+  border: none;
+  width: 100%;
+  
+}
+element.style {
+  display: block;
+  top: 2.5px;
+}
+.header__searchIcon{
+  background-color: #cd9042;
+  padding: 5px;
+  height: 25px !important;
+
+  
+  
+}
+#selectDropdown{
+  background-color: #61dafb;
+  size :2px;
+}
+#styled-select {
+  width: 26px;
+  height: 34px;
+  overflow: hidden;
+  
+
+  margin:auto;
+  border-radius:6px;
+}
+#styled-select select {
+  
+  width: 50px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: rgb(236, 234, 232);
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  height: 25px;
+  -webkit-appearance: none;
+  font-family:helvetica-roman;
+  color:#9C9C9C;   
+}
+#selectDropdown {
+  position: absolute;
+  display: block;
+  top: -1px;
+  left: 0;
+  height: 35px;
+  width: auto;
+  font-family: inherit;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  visibility: visible;
+  border: 0;
+  line-height: 35px;
+}
